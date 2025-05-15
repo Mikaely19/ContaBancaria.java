@@ -16,6 +16,6 @@
     System.out.printf("Saldo inicial da conta 2: R$ %.2f\n", conta2.getSaldo());
     conta2.depositar(150,0);
     System.out.printf("Saldo após depósito de R$ 50,00: R$ %2fz\n", conta2.getSaldo());
-    boolean saque2 = conta2.sacar(50.0);
+    boolean saque2 = conta2.sacar(400.0);
     System.out.printf("Saque de R$ 50,00 %s. Saldo atual: R$ %\n"
                       saque2 ? "realizado com sucesso": "falhou", conta2getSaldo()) 
