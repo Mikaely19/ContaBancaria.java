@@ -1,8 +1,8 @@
     public static void main(String[] args) throws Exception {
         // Instanciando duas constas bancárias 
 
-        ContaBancaria conta1 = new ContaBancaria(101, "Alice", 1000.0);
-        ContaBancaria conta1 = new ContaBancaria(101, "BRuno", 500.0);
+        ContaBancaria conta1 = new ContaBancaria(101, "Karine", 200.0);
+        ContaBancaria conta1 = new ContaBancaria(101, "Shopia", 500.0);
 
         //Operações na conta 1
         System.out.println("Saldo inicial da conta 1: R$ %.2f\n", , conta1.getSaldo());
@@ -17,7 +17,7 @@
     // Operações na conta 2
     System.out.printf("Saldo inicial da conta 2: R$ %.2f\n", conta2.getSaldo());
     conta2.depositar(150,0);
-    System.out.printf("Saldo após depósito de R$ 150,00: R$ %2fz\n", conta2.getSaldo());
-    boolean saque2 = conta2.sacar(800.0);
+    System.out.printf("Saldo após depósito de R$ 50,00: R$ %2fz\n", conta2.getSaldo());
+    boolean saque2 = conta2.sacar(50.0);
     System.out.printf("Saque de R$ 500,00 %s. Saldo atual: R$ %\n"
                       saque2 ? "realizado com sucesso": "falhou", conta2getSaldo()) 
